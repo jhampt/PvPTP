@@ -1,1 +1,20 @@
+# enter the world below the pvp is in for them to be teleported there #
+world: "pvp"
 
+# enter the coords below the player will be teleported to in the pvp world #
+x: "80"
+y: "80"
+z: "80"
+
+# use & for color coding #
+# use \n for a new line #
+
+# enter below how you would like to display the message #
+# supported options #
+# title displays title pvp message to player #
+# popup displays popup pvp message to player #
+# message displays a message in chat for pvp message #
+display_type: "title"
+
+# enter below the message you want the player to see in the pvp world when teleported there #
+PvPTeleportMessage: "You Have Been Teleported To PvP"
