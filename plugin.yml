@@ -1,1 +1,9 @@
-
+name: PvPTPUI
+main: PvPTPUI\PvPTPUI\Main
+author: jhampt
+version: 1.0.0
+api: [3.0.0]
+commands:
+  pvp:
+    aliases: [pvptpui, pvptp]
+    description: Teleports You To PvP
