@@ -8,10 +8,10 @@ use pocketmine\level\Position;
 class Main extends PluginBase implements Listener{
     public function onEnable(): void{
         $this->getServer()->getPluginManager()->registerEvents(($this), $this);
-        $this->getLogger()->info("PVPTPUI Enabled By jhampt");
+        $this->getLogger()->info("PVPTP Enabled By jhampt");
     }
     public function onDisable(): void{
-        $this->getLogger()->info("PVPTPUI Disabled By jhampt");
+        $this->getLogger()->info("PVPTP Disabled By jhampt");
     }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool
     {
@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener{
         $z = $this->getConfig()->get("z");
         $pos = new Position($x, $y, $z, $level);
         $sender->teleport($pos);
-        $sender->sendMessage->$this->getConfig()->get("pvpteleportmessage");
+        $sender->sendMessage->$this->getConfig()->get("PvPTeleportMessage");
         }
         return true;
     }
