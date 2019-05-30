@@ -1,5 +1,5 @@
 <?php
-namespace PvPTP\PvPTP\Main;
+namespace PvPTP\PvPTP;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
