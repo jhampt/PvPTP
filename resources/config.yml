@@ -21,7 +21,7 @@ z: 80
 # title displays title pvp message to player #
 # popup displays popup pvp message to player #
 # message displays a message in chat for pvp message #
-display_type: title
+display_type: message
 
 # enter below the message you want the player to see in the pvp world when teleported there #
 PvPTeleportMessage: You Have Been Teleported To PvP
