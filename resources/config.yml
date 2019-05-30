@@ -1,3 +1,4 @@
+---
 # plugin by jhampt #
 # i do custom plugins you can contact me on discord #
 # you can contact me in the needs of suggestions to this plugin #
@@ -25,3 +26,4 @@ display_type: message
 
 # enter below the message you want the player to see in the pvp world when teleported there #
 PvPTeleportMessage: You Have Been Teleported To PvP
+...
