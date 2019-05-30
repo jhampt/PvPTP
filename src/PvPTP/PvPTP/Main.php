@@ -4,6 +4,8 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
+use pocketmine\event\Listener;
+use pocketmine\event\player\PlayerDeathEvent;
 use pocketmine\level\Position;
 class Main extends PluginBase implements Listener{
 public function onEnable(): void{
@@ -24,6 +26,8 @@ $z = $this->getConfig()->get("z");
 $pos = new Position($x, $y, $z, $level);
 $sender->teleport($pos);
 $sender->sendMessage->$this->getConfig()->get("PvPTeleportMessage");
+$player = $event->getPlayer();
+$this->plugin->setPlayerMaxHealth($player, $this->plugin->getPlayerMaxHealth($player));
 }
 return true;
 }
