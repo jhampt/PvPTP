@@ -8,10 +8,10 @@ use pocketmine\level\Position;
 class Main extends PluginBase implements Listener{
 public function onEnable(): void{
 $this->getServer()->getPluginManager()->registerEvents(($this), $this);
-$this->getLogger()->info("PVPTP Enabled By jhampt");
+$this->getLogger()->info("PvPTP Enabled By jhampt");
 }
 public function onDisable(): void{
-$this->getLogger()->info("PVPTP Disabled By jhampt");
+$this->getLogger()->info("PvPTP Disabled By jhampt");
 }
 public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool
 {
