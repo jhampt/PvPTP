@@ -2,7 +2,7 @@ name: PvPTP
 main: PvPTP\PvPTP\Main
 author: jhampt
 version: 1.0.0
-api: [3.0.0]
+api: [3.0.0, 3.8.3]
 commands:
   pvp:
     description: Teleports You To PvP
